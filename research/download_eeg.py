@@ -1,7 +1,8 @@
 import mne
 from mne.datasets import eegbci
 
-DATA_PATH = r"C:\Users\HP 0186TU\OneDrive\Desktop\eeg_motor_imagery"
+# MNE needs a parent directory here
+DATA_PATH = r"C:\Users\HP 0186TU\OneDrive\Desktop"
 
 mne.set_config("MNE_DATA", DATA_PATH)
 
